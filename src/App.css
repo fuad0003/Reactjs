@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.logo {
+  position: absolute; /* Allows you to place it exactly where needed */
+  top: 20px; /* Distance from the top of the page */
+  left: 20px; /* Distance from the left side */
+  width: 100px; /* Set the desired width */
+}
+.Hero {
+  position: absolute; /* Allows you to place it exactly where needed */
+  bottom: 60; /* Stick the image to the bottom of the page */
+  right: 0; /* Stick the image to the right side */
+  width: 20%; /* Adjust the width as needed */
+  height: 20%; /* Maintain aspect ratio */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
